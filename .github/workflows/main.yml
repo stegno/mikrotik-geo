@@ -5,13 +5,16 @@ on:
     - cron: "0 3 * * *"
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout repo
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Build ru_geo.rsc
         run: |
@@ -19,10 +22,7 @@ jobs:
           | sed 's/^/\/ip firewall address-list add list=geo_ru address=/' \
           > ru_geo.rsc
 
-      - name: Commit file
-        run: |
-          git config user.name "geo-bot"
-          git config user.email "bot@example.com"
-          git add ru_geo.rsc
-          git commit -m "update geo list" || exit 0
-          git push
+      - name: Commit changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: update geo list
