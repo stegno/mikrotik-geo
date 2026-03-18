@@ -18,7 +18,7 @@ jobs:
 
       - name: Build ru_geo.rsc
         run: |
-          curl -s https://www.ipdeny.com/ipblocks/data/aggregated/bn-aggregated.zone \
+          curl -s https://www.ipdeny.com/ipblocks/data/aggregated/ru-aggregated.zone \
           | sed 's/^/\/ip firewall address-list add list=geo_ru address=/' \
           > ru_geo.rsc
 
