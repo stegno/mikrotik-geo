@@ -4413,6 +4413,9 @@
 /ip firewall address-list add list=geo_ru address=139.28.180.0/22
 /ip firewall address-list add list=geo_ru address=139.45.224.0/19
 /ip firewall address-list add list=geo_ru address=139.100.160.0/20
+/ip firewall address-list add list=geo_ru address=139.100.192.0/19
+/ip firewall address-list add list=geo_ru address=139.100.224.0/21
+/ip firewall address-list add list=geo_ru address=139.100.240.0/20
 /ip firewall address-list add list=geo_ru address=141.0.176.0/21
 /ip firewall address-list add list=geo_ru address=141.8.128.0/18
 /ip firewall address-list add list=geo_ru address=141.8.192.0/21
