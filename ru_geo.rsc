@@ -4385,6 +4385,7 @@
 /ip firewall address-list add list=geo_ru address=130.255.80.0/21
 /ip firewall address-list add list=geo_ru address=130.255.128.0/20
 /ip firewall address-list add list=geo_ru address=131.117.216.0/21
+/ip firewall address-list add list=geo_ru address=131.222.134.0/23
 /ip firewall address-list add list=geo_ru address=134.0.96.0/20
 /ip firewall address-list add list=geo_ru address=134.0.112.0/21
 /ip firewall address-list add list=geo_ru address=134.19.128.0/21
