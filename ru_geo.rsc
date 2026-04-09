@@ -2860,7 +2860,6 @@
 /ip firewall address-list add list=geo_ru address=91.217.136.0/23
 /ip firewall address-list add list=geo_ru address=91.217.143.0/24
 /ip firewall address-list add list=geo_ru address=91.217.156.0/24
-/ip firewall address-list add list=geo_ru address=91.217.159.0/24
 /ip firewall address-list add list=geo_ru address=91.217.163.0/24
 /ip firewall address-list add list=geo_ru address=91.217.178.0/24
 /ip firewall address-list add list=geo_ru address=91.217.180.0/24
