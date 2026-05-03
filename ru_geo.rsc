@@ -4413,7 +4413,7 @@
 /ip firewall address-list add list=geo_ru address=136.234.120.0/22
 /ip firewall address-list add list=geo_ru address=136.234.124.0/23
 /ip firewall address-list add list=geo_ru address=136.234.126.0/24
-/ip firewall address-list add list=geo_ru address=138.16.224.0/22
+/ip firewall address-list add list=geo_ru address=138.16.192.0/18
 /ip firewall address-list add list=geo_ru address=139.28.52.0/22
 /ip firewall address-list add list=geo_ru address=139.28.72.0/22
 /ip firewall address-list add list=geo_ru address=139.28.168.0/22
@@ -4513,9 +4513,7 @@
 /ip firewall address-list add list=geo_ru address=152.89.196.0/24
 /ip firewall address-list add list=geo_ru address=152.89.216.0/22
 /ip firewall address-list add list=geo_ru address=153.80.172.0/22
-/ip firewall address-list add list=geo_ru address=153.80.176.0/23
-/ip firewall address-list add list=geo_ru address=153.80.180.0/22
-/ip firewall address-list add list=geo_ru address=153.80.184.0/21
+/ip firewall address-list add list=geo_ru address=153.80.176.0/20
 /ip firewall address-list add list=geo_ru address=153.80.224.0/19
 /ip firewall address-list add list=geo_ru address=155.212.128.0/20
 /ip firewall address-list add list=geo_ru address=155.212.144.0/21
