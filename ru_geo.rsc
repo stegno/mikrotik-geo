@@ -2903,6 +2903,7 @@
 /ip firewall address-list add list=geo_ru address=91.219.72.0/22
 /ip firewall address-list add list=geo_ru address=91.219.88.0/22
 /ip firewall address-list add list=geo_ru address=91.219.96.0/21
+/ip firewall address-list add list=geo_ru address=91.219.117.0/24
 /ip firewall address-list add list=geo_ru address=91.219.124.0/22
 /ip firewall address-list add list=geo_ru address=91.219.136.0/22
 /ip firewall address-list add list=geo_ru address=91.219.148.0/22
@@ -8309,6 +8310,7 @@
 /ip firewall address-list add list=geo_ru address=213.128.192.0/19
 /ip firewall address-list add list=geo_ru address=213.129.32.0/19
 /ip firewall address-list add list=geo_ru address=213.129.96.0/19
+/ip firewall address-list add list=geo_ru address=213.130.80.0/21
 /ip firewall address-list add list=geo_ru address=213.131.0.0/19
 /ip firewall address-list add list=geo_ru address=213.132.64.0/19
 /ip firewall address-list add list=geo_ru address=213.134.6.0/24
