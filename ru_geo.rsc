@@ -3495,7 +3495,6 @@
 /ip firewall address-list add list=geo_ru address=91.240.119.0/24
 /ip firewall address-list add list=geo_ru address=91.240.120.0/21
 /ip firewall address-list add list=geo_ru address=91.240.144.0/24
-/ip firewall address-list add list=geo_ru address=91.240.155.0/24
 /ip firewall address-list add list=geo_ru address=91.240.162.0/24
 /ip firewall address-list add list=geo_ru address=91.240.168.0/22
 /ip firewall address-list add list=geo_ru address=91.240.172.0/24
