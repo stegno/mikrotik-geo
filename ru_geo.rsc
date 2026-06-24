@@ -7907,6 +7907,7 @@
 /ip firewall address-list add list=geo_ru address=195.140.144.0/22
 /ip firewall address-list add list=geo_ru address=195.140.180.0/22
 /ip firewall address-list add list=geo_ru address=195.140.204.0/22
+/ip firewall address-list add list=geo_ru address=195.140.216.0/24
 /ip firewall address-list add list=geo_ru address=195.144.0.0/23
 /ip firewall address-list add list=geo_ru address=195.144.6.0/24
 /ip firewall address-list add list=geo_ru address=195.144.29.0/24
