@@ -4532,6 +4532,7 @@
 /ip firewall address-list add list=geo_ru address=153.51.32.0/19
 /ip firewall address-list add list=geo_ru address=153.51.96.0/19
 /ip firewall address-list add list=geo_ru address=153.76.160.0/20
+/ip firewall address-list add list=geo_ru address=153.76.178.0/23
 /ip firewall address-list add list=geo_ru address=153.80.172.0/22
 /ip firewall address-list add list=geo_ru address=153.80.176.0/20
 /ip firewall address-list add list=geo_ru address=153.80.224.0/19
