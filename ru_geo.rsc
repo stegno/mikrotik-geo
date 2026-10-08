@@ -940,7 +940,7 @@
 /ip firewall address-list add list=geo_ru address=46.174.8.0/21
 /ip firewall address-list add list=geo_ru address=46.174.40.0/21
 /ip firewall address-list add list=geo_ru address=46.174.48.0/21
-/ip firewall address-list add list=geo_ru address=46.174.80.0/20
+/ip firewall address-list add list=geo_ru address=46.174.80.0/21
 /ip firewall address-list add list=geo_ru address=46.174.104.0/21
 /ip firewall address-list add list=geo_ru address=46.174.112.0/21
 /ip firewall address-list add list=geo_ru address=46.174.248.0/21
@@ -6191,6 +6191,7 @@
 /ip firewall address-list add list=geo_ru address=185.207.88.0/22
 /ip firewall address-list add list=geo_ru address=185.207.252.0/22
 /ip firewall address-list add list=geo_ru address=185.208.72.0/22
+/ip firewall address-list add list=geo_ru address=185.208.157.0/24
 /ip firewall address-list add list=geo_ru address=185.208.192.0/22
 /ip firewall address-list add list=geo_ru address=185.209.24.0/21
 /ip firewall address-list add list=geo_ru address=185.209.44.0/22
@@ -6209,6 +6210,7 @@
 /ip firewall address-list add list=geo_ru address=185.212.0.0/22
 /ip firewall address-list add list=geo_ru address=185.212.28.0/22
 /ip firewall address-list add list=geo_ru address=185.212.88.0/22
+/ip firewall address-list add list=geo_ru address=185.212.112.0/24
 /ip firewall address-list add list=geo_ru address=185.212.116.0/23
 /ip firewall address-list add list=geo_ru address=185.213.28.0/22
 /ip firewall address-list add list=geo_ru address=185.213.136.0/22
@@ -8075,6 +8077,7 @@
 /ip firewall address-list add list=geo_ru address=195.222.128.0/18
 /ip firewall address-list add list=geo_ru address=195.225.38.0/23
 /ip firewall address-list add list=geo_ru address=195.225.56.0/23
+/ip firewall address-list add list=geo_ru address=195.225.96.0/24
 /ip firewall address-list add list=geo_ru address=195.225.108.0/22
 /ip firewall address-list add list=geo_ru address=195.225.160.0/22
 /ip firewall address-list add list=geo_ru address=195.225.233.0/24
